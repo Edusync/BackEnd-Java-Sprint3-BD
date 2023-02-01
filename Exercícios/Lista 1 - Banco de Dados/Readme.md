@@ -2,24 +2,21 @@
 
 1 - (Fácil) Defina qual é a estrutura (hierarquia) dos objetos dentro do SGDB PostgreSQL?
 
-2 - (Fácil) Dado o modelo de dados abaixo, crie:
-a) Script para criação da tabela **tb_produto**;
-b) Script para inclusão de um novo campo: categoria varchar(100) na tabela **tb_produto**;
+2 - (Fácil) Dado o modelo de dados abaixo, crie:<br>
+a) Script para criação da tabela **tb_produto**;<br>
+b) Script para inclusão de um novo campo: categoria varchar(100) na tabela **tb_produto**;<br>
 c) Script para exclusão da tabela **tb_produto**;
 
 ![Untitled](img/Untitled.png)
 
-3 - (Fácil) Dado o modelo de tabela tb_produto abaixo, crie:
-**a)** Script de inserção dos dados conforme imagem;
-**b)** Script de alteração do preço de custo do sofá para R$ 2249,00;
+3 - (Fácil) Dado o modelo de tabela tb_produto abaixo, crie:<br>
+**a)** Script de inserção dos dados conforme imagem;<br>
+**b)** Script de alteração do preço de custo do sofá para R$ 2249,00;<br>
 **c)** Script de exclusão dos produtos com preço de venda menor que R$ 1000,00
 
 ![Untitled](img/Untitled1.png)
 
 4 - (Fácil) O que é uma chave primária e quais são os seus principais benefícios?
-Resultado esperado:
-A chave primária define o identificador único de cada tabela. Este identificador pode ser
-simples (apenas uma coluna) ou composto (mais de uma coluna).
 
 5 - (Fácil) Usando como referência a tabela tb_cliente definida abaixo, desenvolver o script
 SQL que crie a tabela definindo os campos código e numero_cnpj como chave primaria.
@@ -45,22 +42,9 @@ script SQL que apresente apenas o código, razão social e quantidade de contato
 
 ![Untitled](img/Untitled4.png)
 
-Resultado esperado:
-*select
-a.codigo, a.razao_social, count(*)
-from tb_fornecedor a
-join tb_contato b on (a.codigo = b.fornecedor_id)
-group by a.codigo, a.razao_social;*
-
 8 - (Médio) Considerando as tabelas tb_fornecedor e tb_contato apresentadas no exercício
 anterior, desenvolva o script SQL que apresente todos os fornecedores que não possuem
 contatos cadastrados.
-Resultado esperado:
-*select
-a.codigo, a.razao_social, b.id
-from tb_fornecedor a
-left join tb_contato b on (a.codigo = b.fornecedor_id)
-where b.id IS NULL;*
 
 9 - (Médio) Construir os scripts SQL de criação da tabela, inclusão de 5 registros aleatórios,
 exclusão do registro de codigo = 3 e exclusão da tabela, nesta ordem.
