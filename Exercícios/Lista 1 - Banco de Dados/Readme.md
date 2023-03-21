@@ -4,19 +4,19 @@
 
 2 - (Fácil) Crie um Diagrama Lógico (utilizando [draw.io](http://draw.io)) e um Diagrama Físico (usando Excel) para representar o Desafio feito na Sprint anterior (Orientação a Objetos) caso esse utilizasse Banco de Dados.
 
-3 - (Fácil) Dado o modelo de dados abaixo, crie:
-a) Script para criação da tabela **tb_produto**;
-b) Script para inclusão de um novo campo: categoria varchar(100) na tabela **tb_produto**;
-c) Script para exclusão da tabela **tb_produto**;
+3 - (Fácil) Dado o modelo de dados abaixo, crie:<br>
+a) Script para criação da tabela **tb_produto**;<br>
+b) Script para inclusão de um novo campo: categoria varchar(100) na tabela **tb_produto**;<br>
+c) Script para exclusão da tabela **tb_produto**;<br>
 
 ![Untitled](img/Untitled.png)
 
-4 - (Fácil) Dado o modelo de tabela tb_produto abaixo, crie:
-**a)** Script de inserção dos dados conforme imagem;
-**b)** Script de alteração do preço de custo do sofá para R$ 2249,00;
-**c)** Script de exclusão dos produtos com preço de venda menor que R$ 1000,00
+4 - (Fácil) Dado o modelo de tabela tb_produto abaixo, crie:<br>
+**a)** Script de inserção dos dados conforme imagem;<br>
+**b)** Script de alteração do preço de custo do sofá para R$ 2249,00;<br>
+**c)** Script de exclusão dos produtos com preço de venda menor que R$ 1000,00<br>
 
-![Untitled](img/Untitled 1.png)
+![Untitled](img/Untitled1.png)
 
 5 - (Fácil) O que é uma chave primária e quais são os seus principais benefícios?
 
@@ -32,17 +32,17 @@ SQL que crie a tabela definindo os campos código e numero_cnpj como chave prima
 criação de chave estrangeira, do tipo 1 para muitos, onde 1 fornecedor pode ter 1 ou mais
 contatos.
 
-![Untitled](img/Untitled 2.png)
+![Untitled](img/Untitled2.png)
 
 8 - (Médio) Dado os registros das tabelas tb_fornecedor e tb_contato, desenvolva um
 script SQL que apresente apenas o código, razão social e quantidade de contatos.
 **Tabela tb_fornecedor**
 
-![Untitled](img/Untitled 3.png)
+![Untitled](img/Untitled3.png)
 
 **Tabela tb_contato**
 
-![Untitled](img/Untitled 4.png)
+![Untitled](img/Untitled4.png)
 
 9 - (Médio) Considerando as tabelas tb_fornecedor e tb_contato apresentadas no exercício
 anterior, desenvolva o script SQL que apresente todos os fornecedores que não possuem
@@ -64,7 +64,7 @@ exclusão do registro de codigo = 3 e exclusão da tabela, nesta ordem.
 SQL que apresente os produtos mais vendidos nos últimos 5 anos, ordenados por
 quantidade de itens vendidos.
 
-![Untitled](img/Untitled 5.png)
+![Untitled](img/Untitled5.png)
 
 13 - (Difícil) Usando com base o diagrama do exercício anterior, desenvolver o script SQL
 que apresente um relatório de vendas, somente dos produtos da categoria ‘escritorio’,
