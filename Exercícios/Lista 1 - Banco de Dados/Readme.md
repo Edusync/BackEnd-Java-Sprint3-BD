@@ -2,7 +2,7 @@
 
 1 - (Fácil) Defina qual é a estrutura (hierarquia) dos objetos dentro do SGDB PostgreSQL?
 
-2 - (Fácil) Crie um Diagrama Lógico (utilizando [draw.io](http://draw.io)) e um Diagrama Físico (usando Excel) para representar o Desafio feito na Sprint anterior (Orientação a Objetos) caso esse utilizasse Banco de Dados.
+2 - (Fácil) Crie um Diagrama Conceitual e Lógico (utilizando [draw.io](http://draw.io)) para representar o Desafio feito na Sprint anterior (Orientação a Objetos) caso esse utilizasse Banco de Dados.
 
 3 - (Fácil) Dado o modelo de dados abaixo, crie:<br>
 a) Script para criação da tabela **tb_produto**;<br>
