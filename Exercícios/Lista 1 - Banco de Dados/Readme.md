@@ -21,11 +21,11 @@ c) Script para exclusão da tabela **tb_produto**;<br>
 5 - (Fácil) O que é uma chave primária e quais são os seus principais benefícios?
 
 6 - (Fácil) Usando como referência a tabela tb_cliente definida abaixo, desenvolver o script
-SQL que crie a tabela definindo os campos código e numero_cnpj como chave primaria.
-• codigo inteiro
-• razao_social String (200)
-• nome_fantasia String (200)
-• numero_cnpj String (14)
+SQL que crie a tabela definindo os campos código e numero_cnpj como chave primaria.<br>
+• codigo inteiro<br>
+• razao_social String (200)<br>
+• nome_fantasia String (200)<br>
+• numero_cnpj String (14)<br>
 • valor_capital_social decimal (12,2)
 
 7 - (Médio) Dado o MER apresentado abaixo, desenvolva o script SQL que efetue a
@@ -62,7 +62,7 @@ exclusão do registro de codigo = 3 e exclusão da tabela, nesta ordem.
 
 12 - (Difícil) Dados o MER do sistema de vendas apresentado abaixo, desenvolva o script
 SQL que apresente os produtos mais vendidos nos últimos 5 anos, ordenados por
-quantidade de itens vendidos.
+quantidade de itens vendidos. Além disso faça o Diagrama Conceitual e Lógico do MER.
 
 ![Untitled](img/Untitled5.png)
 
